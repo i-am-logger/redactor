@@ -1,0 +1,10 @@
+{
+  "type": "ner",
+  "model_name": "dslim/bert-base-NER",
+  "entity_types": [
+    "PER",
+    "ORG",
+    "LOC",
+    "DATE"
+  ]
+}

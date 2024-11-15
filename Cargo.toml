@@ -1,0 +1,22 @@
+[package]
+name = "redactor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.9.0"
+# candle-core = { version = "0.8.0", features = ["cuda"] }
+# candle-nn = { version = "0.8.0", features = ["cuda"] }
+# candle-transformers = { version = "0.8.0", features = ["cuda"] }
+ctor = "0.2.8"
+dotenv = "0.15.0"
+env_logger = "0.11.5"
+futures = "0.3.31"
+futures-util = "0.3.31"
+hf-hub = { version = "0.3.2", features = ["tokio"] }
+log = "0.4.22"
+serde = { version = "1.0.214", features = ["derive"] }
+serde_json = "1.0.132"
+thiserror = "2.0.3"
+tokenizers = "0.20.3"
+tokio = { version = "1.41.0", features = ["full", "macros"] }
